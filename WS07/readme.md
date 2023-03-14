@@ -1,0 +1,1 @@
+Tämä on verkkosivujen kehittäminen, WS07 työpajakansio

@@ -1,0 +1,1 @@
+Tämä on verkkosivujen kehittäminen, WS06 työpajakansio
