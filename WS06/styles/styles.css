@@ -1,0 +1,112 @@
+body {
+    background-color: white;
+    color: rgb(110, 97, 97);
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h1 {
+    color: rgb(110, 97, 97);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-bottom: 2px dotted;
+}
+
+h2 {
+    color: rgb(110, 97, 97);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+
+}
+p {
+    font-size: 17px;
+    color: rgb(110, 97, 97);
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.esittely {
+    background-color: rgb(189, 170, 170, 0.606); 
+    border-radius: 7px;
+    padding: 18px;
+    border: 1px dotted;
+}
+
+figure {
+margin-left: 50px;
+}
+
+#ragdollin-paa {
+    width: 350px;
+}
+
+#ylospain-katsova-kissa {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 350px;
+}
+
+.main-navigation {
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: rgba(121, 116, 119, 0.226);
+}
+
+progress {
+    margin-left: 50px;
+}
+
+
+a:link {
+    color: rgb(161, 191, 222)
+}
+
+a:visited {
+    color: rgba(102, 77, 77);
+}
+
+a:hover {
+    color: rgba(229, 172, 18, 0.842);
+}
+
+a:active {
+    color: rgb(222, 142, 142);
+}
+
+ol {
+    list-style-type:lower-alpha;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 50px;
+}
+
+.main-navigation > div {
+    text-align: center;
+    flex: 1;
+}
+
+#vertical-navigation > ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#vertical-navigation {
+    float: left;
+    width: 20%;
+}
+nav a { 
+    text-decoration: none;    
+}
+nav ul {
+    list-style-type: none;
+}
+
+article {
+    float: left;
+    width: 80%;
+}

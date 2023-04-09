@@ -1,5 +1,5 @@
 body {
-    background-color:black;
+    background-color:rgb(189, 170, 170);
     color: white;
 }
 
@@ -13,11 +13,11 @@ h1 {
 p {
     font-family: 'Trebuchet MS';
     font-size: 12px;
-    color: lightgray;
+    color: rgb(216, 213, 213);
 }
 .first-div {
-    border: dotted;
-    width: 2px;
+    border: 2px dotted;
+    width: 100px;
     height: 100px;
 }
 ol {
