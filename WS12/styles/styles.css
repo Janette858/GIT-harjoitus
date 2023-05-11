@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(219, 212, 207);
+}
+
+.left-side {
+    list-style-type: none;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.luettelo {
+    list-style-type: none;
+}
+
+.left-side li{
+    display: inline-block;
+}
+
+.left-side li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #333;
+    padding: 14px 16px;
+}
+.left-side li a:hover {
+    color: #be789d;
+}
+
+.nav-container {
+    /* apply flex to get navigations in a row */
+    display: flex;
+    /* push the blocks to the edges using justify-content */
+    justify-content: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 75px;
+    text-align: right;
+    font-size: 2px;
+}
+
+.info {
+    background-color: lightgrey;
+    padding-top: 85px;
+    padding-bottom: 50px;
+}
+
+.otsikko-keskella {
+    text-align: center;
+}
+
+.h1-otsikko {
+    margin-left: 75px;
+}
+
+.kuvausteksti {
+    margin-left: 75px;
+}
+
+#kissanpennut {
+    margin-bottom: 50px;
+}
+#ellu {
+    width: 85%;
+}
+#allu {
+    width: 90%;
+}
+#sindi {
+    width: 95%;
+}
+#kissanpennut {
+    width: 48%;
+}
+#yhteydenotto {
+    margin-left: 75px;
+    margin-bottom: 50px;
+}

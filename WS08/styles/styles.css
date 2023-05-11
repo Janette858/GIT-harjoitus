@@ -1,0 +1,73 @@
+
+
+.left-side {
+    list-style-type: none;
+}
+
+.left-side li{
+    display: inline-block;
+}
+
+.left-side li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: #333;
+    padding: 14px 16px;
+}
+.left-side li a:hover {
+    color: #ddd;
+}
+
+.nav-container {
+    /* apply flex to get navigations in a row */
+    display: flex;
+    /* push the blocks to the edges using justify-content */
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 75px;
+}
+
+#ylospain-katsova-kissa {
+    width: 100px;
+    margin-left: 75px;
+}
+#ragdollin-paa {
+    height: 350px;
+    margin-right: 75px;
+}
+
+.info {
+    background-color: lightgrey;
+    padding-top: 85px;
+    padding-bottom: 50px;
+}
+
+.teksti, .esittely {
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.esittely {
+    margin-right: 75px;
+    margin-top: 15px;
+}
+
+.h1-otsikko {
+    margin-left: 75px;
+}
+.otsikko-keskella {
+    text-align: center;
+}
+
+ul {
+    margin-left: 75px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
