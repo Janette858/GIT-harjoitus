@@ -52,6 +52,8 @@ margin-left: 50px;
     padding-bottom: 20px;
     padding-top: 20px;
     background-color: rgba(121, 116, 119, 0.226);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
 }
 
 progress {

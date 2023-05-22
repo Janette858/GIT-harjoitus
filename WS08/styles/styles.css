@@ -29,6 +29,11 @@
     padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 75px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0;
+    text-align: right;
+    width: 100%; /* Full width */
+    background-color: lightgrey
 }
 
 #ylospain-katsova-kissa {
@@ -42,6 +47,7 @@
 
 .info {
     background-color: lightgrey;
+    margin-top: 30px;
     padding-top: 85px;
     padding-bottom: 50px;
 }
@@ -70,4 +76,24 @@ ul {
 .container {
     text-align: center;
     margin-top: 20px;
+}
+
+#karuselli {
+    overflow: hidden;
+    }
+#karuselli figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    }
+    
+#karuselli figure img {
+    width: 20%;
+    float: left;
+}
+
+.kuvat {
+    display: flex;
 }

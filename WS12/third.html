@@ -14,19 +14,133 @@
 
     <nav class="nav-container">
       <ul class="left-side">
-          <li><a href="index.html" target="_blank">Aloitussivu</a></li>
+          <li><a href="index.html" target="_blank">Tietoa rodusta</a></li>
           <li><a href="second.html" target="_blank">Väritys ja kuviointi</a></li>
-          <li><a href="third.html" target="_blank">Luonne ja käyttäytyminen</a></li>
-          <li><a href="tableform.html" target="_blank">Yhteydenotto</a></li>
+          <li><a href="third.html" target="_blank">Galleria</a></li>
+          <li><a href="tableform.html" target="_blank">Haluatko nähdä lisää?</a></li>
       </ul>
   </nav>
 
   <div class="info">
-  <h1 class="otsikko-keskella">Luonne ja käyttäytyminen</h1>
+  <h1 class="otsikko-keskella">Galleria</h1>
   </div>
 
-  <p class="kuvausteksti">Ragdoll-rodun luonteen yleisiä piirteitä ovat seurallisuus, rauhallisuus, rentous ja se kiintyy ihmisiin. Ragdollin on sanottu olevan koiramainen kissa.
-    Ragdollia ei saa päästää yksin ulkoilemaan (kuten ei muitakaan kissoja), koska se ei osaa varoa vaaratilanteita.</p>
+    <style>
+
+div.gallery {
+        border: 1px solid rgb(219, 212, 207);
+      }
+    
+      div.gallery:hover {
+        border: 1px solid rgb(128, 124, 121)
+      }
+
+      div.gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      div.desc {
+        padding: 10px;
+        text-align: center;
+        font-size: 17px;
+        font-style: italic;
+      }
+      
+      
+      .responsive {
+        padding: 10px 6px 10px 6px;
+        float: left;
+        width: 24.99999%;
+        margin-bottom: 50px;
+      }
+      
+      @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+      
+      .clearfix:after {
+          content: "";
+          display: table;
+          clear: both;
+}
+  
+      </style>
+      
+<p class="kuvausteksti">Galleriaan olen lisännyt jokaisesta ragdollista kuvia, jotka olemme omistaneet. Ellu ja Eino jouduttu lopettamaan nuorella iällä FIP:n takia.
+  Allu ja Sindi ovat tämän hetkiset kissakaverukset.</p>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kuvat/Eino pentuna.JPG">
+            <img src="kuvat/Eino pentuna.JPG" class="img-fluid" alt="ragdollin pentu">
+          </a>
+          <div class="desc">Eino pentuna</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kuvat/Allu pentuna.JPG">
+            <img src="kuvat/Allu pentuna.JPG" class="img-fluid" alt="ragdollin pentu">
+          </a>
+          <div class="desc">Allu pentuna</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kuvat/Eino ja Allu kiipeilypuussa.JPG">
+          <img src="kuvat/Eino ja Allu kiipeilypuussa.JPG" class="img-fluid" alt="kaksi ragdollia kiipeilypuussa">
+          </a>
+          <div class="desc">Eino ja Allu kiipeilypuussa</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kuvat/Sindi tuolilla.JPG">
+            <img src="kuvat/Sindi tuolilla.JPG" alt="ragdollin pentu">
+          </a>
+          <div class="desc">Sindi keittiön tuolilla</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kuvat/Allu ja Sindi.JPG">
+            <img src="kuvat/Allu ja Sindi.JPG" alt="kaksi ragdollia kiipeilypuussa">
+          </a>
+          <div class="desc">Allu ja Sindi kiipeilypuussa</div>
+        </div>
+      </div>
+
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="kuvat/Ellu makoilee.JPG">
+            <img src="kuvat/Ellu makoilee.JPG" alt="ragdoll makoilee">
+          </a>
+          <div class="desc">Ellu makoilee rahilla</div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <footer class="footer">
+        <p>© Janette Pietilä</p>
+    </footer>
 
 </body>
 </html>
