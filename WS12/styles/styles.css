@@ -48,7 +48,6 @@ body {
     text-align: right;
     width: 100%; /* Full width */
     background-color: rgb(170, 162, 156);
-    z-index: 9999;
 }
 
 .info {
