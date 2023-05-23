@@ -11,6 +11,7 @@ body {
 .container {
     text-align: center;
     padding-top: 50px;
+    margin-left: 75px;
 }
 
 .luettelo {
@@ -85,6 +86,7 @@ body {
     width: 48%;
     border-radius: 8px;
 }
+
 #ellu {
     width: 85%;
     border-radius: 8px;
