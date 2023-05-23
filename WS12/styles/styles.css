@@ -32,8 +32,9 @@ body {
     padding: 14px 16px;
 }
 .left-side li a:hover {
-    color: rgb(210,180,140)
+    color: rgb(94, 90, 85)
 }
+
 
 .nav-container {
     /* apply flex to get navigations in a row */
@@ -48,6 +49,7 @@ body {
     width: 100%; /* Full width */
     background-color: rgb(170, 162, 156);
 }
+
 
 .info {
     background-color: rgb(170, 162, 156);
